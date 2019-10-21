@@ -24,9 +24,7 @@
 
 .column {
     float: left;
-    padding: 0 15px;
-    border: 1px solid black;
-    height: 500px;
+    padding: 0 15px 0 0;
 }
 
 .half.column  {
@@ -153,7 +151,150 @@ header {
 }
 
 .product {
-    background-color: lightgrey;
+    background-color: #FAFAFA;
     padding: 10px;
+    text-align: center;
+}
+.testo_prodotti img {
+    max-height: 22px;
+    margin :15px 0;
+}
+.testo_prodotti h2 {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+.testo_prodotti a {
+    color: #0070c8;
+    font-size: 20px;
+    text-decoration: none;
+}
+.testo_prodotti a:hover {
+    text-decoration: underline;
+}
+.product img {
+    margin: 20px 0;
+    width: 200px;
+}
+#third {
+    margin-top: 80px;
+}
+#immagine_sfondo_vecchio {
+    background-image: url(https://files.slack.com/files-pri/T91QPE3BP-FPEET7J5P/helbiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
+}
+#sotto_immagine_sfondo_vecchio {
+    width: 70%;
+    margin: 0 auto;
+}
+#sotto_left {
+    float: left;
+}
+#sotto_left h2 {
+    font-size: 35px;
+    position: relative;
+    top: 80px;
+    left:30px;
+    max-width: 320px;
+}
+#sotto_right {
+    float: right;
+}
+#step {
+    position: relative;
+    top:100px;
+    right:200px;
+}
+#fourth {
+    padding: 200px 0 30px 0;
+}
+.one {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: right;
+    color: white;
+}
+#smart_mobility {
+    position: relative;
+    top:130px;
+    right:150px;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+
+}
+#smart_mobility h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+#smart_mobility p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+#smart_mobility a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+#get_the_app {
+    height: 600px;
+    margin-top: 40px;
+    background: url(https://helbiz.com/asset/pages/newhome/images/HelbiZAPP.png) ,linear-gradient(#41566a,#252f38);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 530px,100%;
+}
+.scritte_colonne {
+    text-align: center;
+    color: white;
+    position: relative;
+    top:40px;
+}
+.scritte_colonne h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.scritte_colonne p {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.scritte_colonne a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 30px 0 30px;
+}
+.scritte_colonne a:hover {
+    text-decoration: underline;
+}
+#find_around {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 40px;
+}
+#instagram {
+    background-image: url(https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg);
+    height: 420px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#rettangolo_bianco {
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
 }
