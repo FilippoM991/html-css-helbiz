@@ -36,6 +36,10 @@
 .one.column  {
     width: 100%;
 }
+.fa-chevron-right {
+    position: relative;
+    top:2px;
+}
 /*** fine layout base ***/
 
 /*** inizio header ***/
@@ -186,6 +190,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
+    position: relative;
 }
 #sotto_immagine_sfondo_vecchio {
     width: 70%;
@@ -220,6 +225,26 @@ header {
 }
 #telefono img {
     height: 630px;
+}
+#immagine_sfondo_vecchio a {
+    font-size: 40px;
+    display: none;
+}
+#third:hover a {
+    display: block;
+}
+
+#freccia_destra {
+    position: absolute;
+    color: lightgrey;
+    right:550px;
+    bottom:10px;
+}
+#freccia_sinistra {
+    position: absolute;
+    color: lightgrey;
+    left:550px;
+    bottom:10px;
 }
 #fourth {
     padding: 200px 0px 30px 0px;
@@ -329,4 +354,64 @@ footer {
     color:white;
     background-color: black;
     padding: 50px 0;
+}
+.quattro_colonne {
+    float: left;
+    width: 25%;
+    margin-top: 50px;
+    padding:0 20px;
+}
+.quattro_colonne h4 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.quattro_colonne ul {
+    list-style-type: none;
+}
+.quattro_colonne li {
+    padding: 5px 0;
+}
+.quattro_colonne a {
+    color: #636363;
+    text-decoration: none;
+}
+#social_copyright {
+    height: 100px;
+    width: 100%;
+    margin-top: 80px;
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    line-height: 100px;
+}
+#social_foot {
+    display: inline-block;
+}
+#social_foot a {
+    color: white;
+    margin:0 10px 0 10px;
+    font-size: 22px;
+}
+#condition_copyright {
+    display: inline-block;
+}
+#condition_copyright ul {
+    list-style-type: none;
+}
+#condition_copyright ul li {
+    display: inline-block;
+    margin: 0 90px;
+    font-size: 15px;
+}
+#condition_copyright ul li a {
+    text-decoration: none;
+    color: white;
+}
+#immagini_fine {
+    text-align: center;
+    margin: 30px 0;
+}
+#immagini_fine img {
+    height: 40px;
+    border: 1px white solid;
+    margin:0 5px;
 }
